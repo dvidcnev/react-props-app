@@ -1,0 +1,49 @@
+* {
+  font-family: Inter;
+}
+
+body {
+  margin: 0;
+}
+
+#navbar {
+  background-color: #f55a5a;
+  margin: 0;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav span {
+  padding: 5px;
+  color: white;
+  font-size: 14.46px;
+  font-weight: 400;
+}
+
+.cardMain {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+#cardImage {
+  padding: 30px;
+  height: 100%;
+  max-width: max-content;
+}
+
+.gray a {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: bold;
+}
